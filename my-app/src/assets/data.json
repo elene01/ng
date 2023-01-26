@@ -1,0 +1,23 @@
+[
+    {
+        "firstName": "Giorgi",
+        "lastName": "Bazerashvili",
+        "about": "About Giorgi",
+        "birthDate": "23 july, 1978",
+        "status": "deleted"
+    },
+    {
+        "firstName": "Elene",
+        "lastName": "Chelidze",
+        "about": "About Elene",
+        "birthDate": "21 september, 2001",
+        "status": "active"
+    },
+    {
+        "firstName": "Mariam",
+        "lastName": "Lekveishvili",
+        "about": "About mariam",
+        "birthDate": "1 feb, 1989",
+        "status": "inactive"
+    }
+]
