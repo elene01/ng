@@ -14,6 +14,36 @@ export class AppComponent {
   date:any = new Date() 
   userNames: string[] = []
   userNameShow:boolean = false
+  mouseoverd:boolean = false
+
+  selected:any[] = [];
+
+  ngOnInit() {
+    for (let i = 0; i < 7; i++) {
+      this.selected[i] = [];
+      for (let j = 0; j < 7; j++) {
+        this.selected[i][j] = false;
+      }
+    }
+  }
+  
+  select(i: number, j: number) {
+    this.selected[i][j] = true;
+  }
+  
+  
+  
+  
+  
+  
+  style = {
+'background-color' : 'red'
+  }
+  mouseOver(){
+    this.style = {
+      'background-color' : 'blue'
+        }
+  }
 
   loadUsers() {
     this.loading = true
